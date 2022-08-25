@@ -1,0 +1,25 @@
+{
+    "name": "IshTapp/recommendation",
+    "description": "Vacancy Recommendation System For Ishtapp With Artificial Intelligence", 
+    "license": "Private",
+    "authors": [ 
+        {
+            "name": "Ulut Soft",
+            "email": "info@ulut.kg"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "IshTapp\\Recommendation\\": "src/" 
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { "IshTapp\\Recommendation\\Tests\\": "tests" }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
